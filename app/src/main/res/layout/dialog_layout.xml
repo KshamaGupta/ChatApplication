@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="325dp"
+    android:layout_height="255dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="13dp"
+    android:background="@drawable/shapedialog"
+    >
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/baseline_logout_24"
+        android:layout_gravity="center"
+        android:layout_margin="13dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do you really want to logout?"
+        android:textSize="18sp"
+        android:layout_margin="8dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/nobtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="No"
+            android:background="@color/colorPrimary"/>
+        <Button
+            android:id="@+id/yesbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:layout_gravity="center"
+            android:text="Yes"
+            android:background="@color/colorPrimary"/>
+    </LinearLayout>
+
+</LinearLayout>

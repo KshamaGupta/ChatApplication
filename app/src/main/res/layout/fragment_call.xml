@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7CFD8"
+    tools:context=".ui.CallFragment">
+    <ImageView
+        android:id="@+id/button3"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="end"
+        android:layout_width="60dp"
+        android:layout_height="85dp"
+        android:src="@drawable/baseline_logout_24"
+        android:text="Logout" />
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="Profile Info"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:gravity="center"
+
+        android:background="#D7CFD8"
+        android:orientation="vertical">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+
+            android:src="@drawable/baseline_person_24"
+            android:id="@+id/circle"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+
+            android:textColor="@color/black"
+            android:id="@+id/text7"
+            android:text="Kshama Gupta"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logout"
+            android:text="Update"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
